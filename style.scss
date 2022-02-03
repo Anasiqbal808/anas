@@ -1,0 +1,162 @@
+body{
+    .navbar{
+        .container-fluid{
+            .navbar-brand{
+                
+            }
+            .navbar-collapse{
+                .navbar-nav{
+                    margin: 0 auto;
+                    .nav-item{
+                        .nav-link{
+                            color: black;
+                        }
+                       .buyBut
+                       {
+                           border: 0;
+                           border: 1px solid rgba(0, 0, 0, 0.13);
+                           background-color: rgba(0,0,0,0);
+                           border-radius: 40px;
+                           padding: 10px 40px;
+                       }
+                    }
+                    .searchIcon
+                    {
+                        margin-left: 50px;
+                    }
+                }
+            }
+        }
+    }
+    .heads
+    {
+        background-color:rgb(241, 246, 247);
+        min-height: 500px;
+        .container{
+            .row{
+                .left{
+                    text-align: right;
+                    padding-top: 50px;
+                }
+                .right{
+                 padding-top: 70px;
+                 padding-left: 50px;
+
+                 h1 
+                 {
+                     color: rgb(85,85,85);
+                     font-size: 30px;
+                 }
+                 h3 
+                 {
+                     font-size: 50px;
+                     font-weight: 700;
+                 }
+                 p 
+                 {
+                     color: rgb(139,119,136);
+                 }
+                 button 
+                 {
+                     background-color: rgb(56, 74, 235);
+                     border: 0;
+                     color: white;
+                     border-radius:40px ;
+                     padding: 15px 40px;
+                 }
+                }
+            }
+        }
+        
+    }
+    .Firstcards
+    {
+        padding-top: 10px;
+        padding-bottom: 80px;
+    }
+    .popularItem
+    {
+        padding-top: 80px;
+        padding-bottom: 80px;
+        .container{
+            .row{
+                text-align: center;
+                .singleProduct
+                {
+                    padding-top: 50px;
+                }
+                .bottom
+                {
+                    text-align: center;
+                    padding-top: 10px;
+        
+                    h1 
+                    {
+                        font-size: 20px;
+                        color: rgb(166, 166, 162);
+                    }
+                     h4 
+                    {
+                        font-size: 20px;
+                        font-weight: 500;
+                    }
+                    
+                    h6
+                    {
+                        color: rgb(126, 125,128);
+                    }
+                }
+            }
+        }
+        h5 
+        {
+            color: rgb(119, 119, 119);
+        }
+        h2 
+        {
+            font-size: 40px;
+            font-weight: bold;
+        }
+    }
+    .shoppingCart
+    {
+        background-image: url(./img/background.webp);
+       min-height: 300px;
+       text-align: center;
+       padding-top: 100px;
+       padding-bottom: 100px;
+
+       h1 
+       {
+           font-size:50px;
+           font-weight: 600;
+       }
+       h2
+       {
+           font-size:30px;
+       }
+       p 
+       {
+           color: rgba(0, 0, 0, 0.644);
+       }
+       button 
+       {
+           background-color: rgb(56, 74, 235);
+           border: 0;
+           color: white;
+           border-radius:40px ;
+           padding: 15px 40px;
+       }
+    }
+
+    
+    .last
+    {
+        background:red;
+    }
+    h1 
+    {
+        color: white;
+        font-size: 20px;
+    }
+}
